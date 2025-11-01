@@ -9,10 +9,10 @@ mod decompose;
 mod folder;
 mod proof;
 mod prover;
-mod public;
-mod symbolic_builder;
-mod symbolic_expression;
-mod symbolic_variable;
+pub mod public;
+pub mod symbolic_builder;
+pub mod symbolic_expression;
+pub mod symbolic_variable;
 mod verifier;
 mod zerofier_coset;
 
